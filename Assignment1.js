@@ -10,6 +10,6 @@ class Person {
          ${this.interests[0]}, ${this.interests[1]}`;}
     }
 
-    let person_1 = new Person(akhona, Ndlovu, 13,[dancing, playing]);
-    let person_2 = new Person(Aphiwe, Ndlovu, 10, [singing, reading]);
+    let person_1 = new Person("Akhona", "Ndlovu", 13,["dancing", "playing"]);
+    let person_2 = new Person("Aphiwe", "Ndlovu", 10, ["singing", "reading"]);
     console.log(person_1.greeting());
